@@ -1,0 +1,33 @@
+.main-block {
+  width: 35em;
+  height: 35em;
+  margin: 1.875em auto;
+  border: 0.063em solid black;
+
+  animation-name: spin;
+
+  animation-duration: 4s;
+
+  animation-delay: 2s;
+}
+.block {
+  width: 4.375em;
+  height: 4.375em;
+  float: left;
+}
+.yellow {
+  background: rgb(214, 230, 4);
+}
+.red {
+  background: rgb(204, 7, 7);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
